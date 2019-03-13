@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VHTM</title>
+</head>
+<body>
+<script>
+function upper_case(str) {
+    let regexp = /^[A-Z]/;
+    let result = regexp.test(str);
+
+    if(result===true){alert("String's first character is uppercase")
+    }else {alert("String's first character is NOT uppercase")}
+}
+let str = "Game very easy";
+upper_case(str);
+let str1 = "Nguyen van Nam";
+    upper_case(str1);
+    let str2= "NGUYEN VAN NAM";
+    upper_case(str2);
+    let str3 = "nguyen van Nam";
+    upper_case(str3)
+</script>
+</body>
+</html>
